@@ -1,9 +1,6 @@
-def partition(nums):
+def partition(nums,start,end):
     pivot_index=0
     pivot=nums[0]
-    
-    start=1
-    end=len(nums)-1
     
     while start<end:
         while nums[start]<=pivot:
