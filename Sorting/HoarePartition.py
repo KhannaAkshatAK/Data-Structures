@@ -10,3 +10,4 @@ def partition(nums,start,end):
         if start<end:
             nums[start],nums[end]=nums[end],nums[start]
     nums[pivot_index],nums[end]=nums[end],nums[pivot_index]
+    return nums
